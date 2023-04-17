@@ -1,0 +1,183 @@
+                                      /* GENERAL STYLING*/
+                                      body{
+                                        padding:0px;
+                                        margin: 0px;
+                                        width: 100vw;
+                                        height: 100vh;
+                                        position: relative;
+                                      
+                                      en;
+                                        /* display: inline-block; */
+                                      }
+                                                                           /*GENERAL STYLING END*/
+                                      
+                                      
+                                       /*DEFINING A BODY CONTAINER*/
+                                                                           
+                                      #body-container{
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        height: 100vh;
+                                        width: 100vw;
+                                        background-size: contain;
+                                        background-color: #d9d6bf;
+                                      
+                                      }
+                                      
+                                      
+                                      .display-upper{
+                                        
+                                        height: 30vh;
+                                        width: 100%;
+                                        position: absolute;
+                                        opacity: 1;
+                                        z-index: 10;
+                                        top:40vh;
+                                        text-align: center;
+                                        color: #d9d6bf;
+                                      }
+                                      
+                                      /*START GAME BUTTON STYLING*/
+                                      .display-upper button
+                                      {
+                                        background-color: blueviolet;
+                                        font-size: 200%;
+                                        font-weight: 600;
+                                        border-radius: 2rem;
+                                        padding: 0.4rem;
+                                        box-shadow: 0px 0px 4px black;
+                                      
+                                      }
+                                      
+                                      
+                                      
+                                                                    /*CONTAINER OF THE GAME*/
+                                      .container{
+                                        width:100%;
+                                        height:75%;
+                                      
+                                        box-sizing: border-box;
+                                        border-top:2px solid black;
+                                        border-bottom:2px solid black;
+                                        border-left: 15px solid black;
+                                        border-right: 15px solid black;
+                                        margin: 0px;
+                                        margin-top: 15vh;
+                                        margin-bottom: 10vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content:space-between;
+                                        position: fixed;
+                                        background-color: #61b8dad1;
+                                      }
+                                      
+                                      
+                                      
+                                      
+                                                                   /*RODS AND BALLS OF THE GAME*/
+                                      .rod1,.rod2
+                                      {
+                                        
+                                        width: 17%;
+                                        
+                                        height: 20px;
+                                        position: relative;
+                                        left: 45%;
+                                        border-radius: 40rem;
+                                        box-sizing: border-box;
+                                        font-size: 15px;
+                                        text-align: center;
+                                      }
+                                      .rod1{
+                                        background-color:royalblue;
+                                      }
+                                      .rod2{
+                                        background-color: red;
+                                      }
+                                      .ball{
+                                        background-color: greenyellow;
+                                        width:34px;
+                                        height: 34px;
+                                        border-radius: 50%;
+                                        position: absolute;
+                                        align-self: center;
+                                        box-sizing: border-box;
+                                        border:2px solid black;
+                                      
+                                      }
+                                      
+                                      
+                                      
+                                      /*TO HIDE THE ELEMENT*/
+                                      .hidden{
+                                        visibility: hidden;
+                                      }
+                                      
+                                      /*CENTER-ROD*/
+                                      .center-rod{
+                                        left:45%;
+                                      }
+                                      
+                                      /*BLURRY*/
+                                      .blurry{
+                                        opacity:0.3;
+                                      }
+                                      
+                                      /*TOP-ONE CONTAINER FOR SCORE CARD AND NEW GAME OPTION*/
+                                      .top-container{
+                                        display: flex;
+                                        justify-content: space-between;
+                                        height: 10%;
+                                       
+                                        background-size: contain;
+                                        box-sizing: border-box;
+                                      
+                                        align-items: baseline;
+                                      
+                                      }
+                                      .top-container>div{
+                                        height: 20px;
+                                        padding: 0px;
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                      
+                                      /*SCORING OF A PLAYER1 AND 2*/
+                                        
+                                      }
+                                      .score{
+                                        display: flex;
+                                        padding:0px;
+                                        margin: 0px;
+                                        font-weight: 700;
+                                      }
+                                      .score h5{
+                                        font-size: 100%;
+                                      
+                                        font-weight: 700;
+                                      }
+                                      
+                                      
+                                      /* FOR DEVELOPING A NEW GAME BUTTON*/
+                                      .new-game button{
+                                        background-color: #0bf1b1;
+                                        font-size:100%;
+                                        font-weight: 700;
+                                        border-radius: 2rem;
+                                        padding: 0.2rem;
+                                        box-shadow: 0px 0px 4px black;
+                                        color: #67728ad9;
+                                      }
+                                      
+                                      
+                                      
+                                      /*LIVE-SCORE FOR PLAYER1 AND PLAYER2*/
+                                      
+                                      .lives{
+                                        color: #494958f2;
+                                      
+                                      }
+                                      .lives i{
+                                        color:red;
+                                        font-size: 1rem;
+                                      }

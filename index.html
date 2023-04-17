@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!--STARTING A HEAD TAG-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--TITLE TAG SHOWS THE TITLE NAME ON A PAGES'S TAB-->
+    <title>Ping pong game</title>
+    <!--END OF A TITLE TAG-->
+
+    <!--LINKING A EXTERNAL CSS SOURCE FILE-->
+    <link rel="stylesheet" href="src/styles.css" />
+    <!--END OF LINKING CSS SOURCE FILE-->
+
+    <!--SCRIPTING OF FONTAWESOME WEBSITE FOR ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--END OF A SCRIPTING-->
+  </head>
+
+  <!--ENDING A HEAD TAG-->
+
+  <!--STARTING A BODY TAG-->
+  <body>
+    <!--FOR DEVELOPING A START BUTTON-->
+    <div id="start-button" class="display-upper">
+      <button type="button" name="button">Start Game</button>
+    </div>
+
+    <span id="body-container" class="blurry">
+      <!--FOR SCORING OF PLAYER1 -->
+      <div class="top-container">
+        <div class="score">Score :<span id="score-display1"> 0 </span></div>
+
+        <!--TO DEVELOP A NEW GAME BUTTON TO RESET THE GAME-->
+        <div class="new-game" id="new-game-button">
+          <button type="button" name="button">New Game</button>
+        </div>
+
+        <!--MAKING A LIFE TAG FOR PLAYER 1-->
+        <div class="lives">
+          Lives <i class="fas fa-heart heart1"></i>
+          <i class="fas fa-heart heart1"></i>
+          <i class="fas fa-heart heart1"></i>
+        </div>
+      </div>
+
+      <div class="container">
+        <!--RODS AND BALL CHARACTERISATION-->
+        <div class="rod1">Rod 1</div>
+        <div class="ball"></div>
+        <div class="rod2">Rod 2</div>
+      </div>
+
+      <!--FOR SCORING OF PLAYER2 -->
+      <div class="top-container">
+        <div class="score">Score :<span id="score-display2"> 0 </span></div>
+
+        <!--MAKING A LIFE TAG FOR PLAYER 2-->
+        <div class="lives">
+          Lives <i class="fas fa-heart heart2"></i>
+          <i class="fas fa-heart heart2"></i>
+          <i class="fas fa-heart heart2"></i>
+        </div>
+      </div>
+    </span>
+
+    <!-- LINKING THE EXTERNAL FILE OF JAVASCRIPT FOR DYNAMIC ACTION-->
+    <script type="text/javascript" src="src/index.js"></script>
+  </body>
+
+  <!--ENDING A BODY TAG-->
+</html>
